@@ -113,6 +113,7 @@ function buscar(){
 						"<strong>Apellido de Usuario: </strong>"+ usuarios[i].apellido+"<br>"+
 						"<strong>DNI de Usuario: </strong>"+ usuarios[i].dni+"<br>"+
 						"<strong>Asiento Ocupado: </strong>"+ usuarios[i].n+"<br>"
+			break;
 		}  else {
 			mensaje = "<h3><strong>Usuario No encontrado</strong></h3>"
 		}	
