@@ -67,6 +67,13 @@ function reservar(){
 		alert("Usuario registrado");
 
 		limpiar();
+
+		_nombre.placeholder = persona.nombre;
+		_apellido.placeholder = persona.apellido;
+		_dni.placeholder = persona.dni;
+		_nombre.readOnly = true;
+		_apellido.readOnly = true;
+		_dni.readOnly = true;
   	}
 }
 
