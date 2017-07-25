@@ -74,6 +74,7 @@ function reservar(){
 		_nombre.readOnly = true;
 		_apellido.readOnly = true;
 		_dni.readOnly = true;
+		
   	}
 }
 
